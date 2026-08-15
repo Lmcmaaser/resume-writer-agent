@@ -24,7 +24,7 @@ Claude Code will pick it up automatically. Invoke it by asking to tailor, build,
 ### Requirements
 
 - A LaTeX distribution with `pdflatex`/`latexmk` on your `PATH` (e.g. [BasicTeX](https://tug.org/mactex/morepackages.html) or [MacTeX](https://tug.org/mactex/) on macOS, TeX Live on Linux)
-- Your resume data lives in `~/Playground/Resume/` by default (see the agent file's directory layout) — adjust the paths in `agents/resume-writer.md` if you keep it elsewhere
+- Your resume data lives in `~/Resume/` by default (see the agent file's directory layout) — adjust the paths in `agents/resume-writer.md` if you keep it elsewhere
 
 ## Contributing
 
