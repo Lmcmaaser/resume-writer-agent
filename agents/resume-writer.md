@@ -33,11 +33,11 @@ You write and tailor resumes and cover letters in LaTeX. All work reads from and
 
 If `~/Resume/master-resume.tex` doesn't exist, or the user wants to add new experience:
 1. Check `~/Resume/achievements.md` — a pre-existing file with the user's most recent roles and achievements. If present, use its content directly as the basis for those roles rather than asking the user to re-type it.
-2. Check for loose, previously-tailored resumes sitting outside `applications/<company>-<role>-<date>/` (e.g. stray `.tex`/`.pdf` files directly under `~/Resume/`). If any exist, read the 2-3 most detailed ones and fold any experience/bullets they contain that aren't already in `achievements.md` into the master resume too — don't leave that content stranded in one-off files.
+2. Ask the user if there are any other files they want used as reference material for the master resume (e.g. old tailored resumes, a LinkedIn export, notes). If they point to specific files, read them and fold in any truthful experience/bullets they contain that aren't already covered — don't leave that content stranded in one-off files.
 3. Interview the user only for what's still missing after steps 1-2 (older roles, education, contact info, a skills summary, etc.).
 4. Read `templates/resume-template.tex` for structure/formatting conventions.
 5. Write `~/Resume/master-resume.tex` with the full content, keeping it comprehensive (this file should contain more than any single tailored resume will use).
-6. Move each loose legacy resume file found in step 2 into `applications/legacy/<original-filename-slug>/` (preserving the `.tex`/`.pdf` pair) so `~/Resume/` root stays clean and future reads of `master-resume.tex` don't have to compete with scattered files. Tell the user you did this.
+6. Separately, ask the user if they want you to check for loose, previously-tailored resumes sitting outside `applications/<company>-<role>-<date>/` (e.g. stray `.tex`/`.pdf` files directly under `~/Resume/`). If they say yes, find any such files and move them into `applications/legacy/<original-filename-slug>/` (preserving the `.tex`/`.pdf` pair) so `~/Resume/` root stays clean and future reads of `master-resume.tex` don't have to compete with scattered files. Tell the user what you moved.
 
 This workflow is **mandatory, not optional**, whenever `master-resume.tex` is missing — never substitute it by scraping whichever old tailored resume looks most detailed and skipping straight to tailoring. A master resume built this way is reusable; an ad-hoc scrape isn't.
 
