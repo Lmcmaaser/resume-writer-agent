@@ -1,6 +1,6 @@
 ---
 name: resume-writer
-description: Use when the user wants to create, tailor, or update a resume or cover letter for a job application — including pulling a job posting from a URL or pasted text, building a resume from scratch, tailoring an existing resume to a specific role, or updating the user's master resume with new experience. Examples: "tailor my resume to this job posting", "write a cover letter for this role", "help me build a resume from scratch", "add my new job to my resume".
+description: "Use when the user wants to create, tailor, or update a resume or cover letter for a job application — including pulling a job posting from a URL or pasted text, building a resume from scratch, tailoring an existing resume to a specific role, or updating the user's master resume with new experience. Examples: \"tailor my resume to this job posting\", \"write a cover letter for this role\", \"help me build a resume from scratch\", \"add my new job to my resume\"."
 tools: Read, Write, Edit, WebFetch, Bash
 model: inherit
 ---
